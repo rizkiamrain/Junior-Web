@@ -4,34 +4,34 @@ import { createRoot } from "react-dom/client";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Beranda from "./pages/Beranda";
-import ShoppingTask from "./pages/Tugas4.jsx";
-import ProductDataTask from "./pages/Tugas1.jsx";
-import ProductFormTask from "./pages/Tugas2.jsx";
-import SalesChartTask from "./pages/Tugas6.jsx";
-import GradeTask from "./pages/Tugas5.jsx";
+import Tugas4 from "./pages/Tugas4.jsx";
+import Tugas1 from "./pages/Tugas1.jsx";
+import Tugas2 from "./pages/Tugas2.jsx";
+import Tugas6 from "./pages/Tugas6.jsx";
+import Tugas5 from "./pages/Tugas5.jsx";
 import "./App.css";
 import App from "./App.jsx";
 
 const router = createBrowserRouter([
   {
-    path: "ProductDataTask",
-    element: <ProductDataTask />,
+    path: "Tugas1",
+    element: <Tugas1 />,
   },
   {
-    path: "ProductFormTask",
-    element: <ProductFormTask />,
+    path: "Tugas2",
+    element: <Tugas2 />,
   },
   {
-    path: "ShoppingTask",
-    element: <ShoppingTask />,
+    path: "Tugas4",
+    element: <Tugas4 />,
   },
   {
-    path: "GradeTask",
-    element: <GradeTask />,
+    path: "Tugas5",
+    element: <Tugas5 />,
   },
   {
-    path: "SalesChartTask",
-    element: <SalesChartTask />,
+    path: "Tugas6",
+    element: <Tugas6 />,
   },
   {
     path: "/",
